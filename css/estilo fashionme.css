@@ -1,0 +1,168 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+
+
+.head{
+    height: 55px;
+    background-color: #162028;
+    position: relative;
+}
+
+
+.logotipo{
+    margin: 10px 0px 0px 150px;
+}
+
+.navegation{
+   position: absolute;
+    top: 0;
+    right:0;
+    height: 100%;   
+}
+
+.navegation ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navegation li{
+    list-style: none; 
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 15px;
+}
+
+.navegation a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+
+.navegation a:hover{
+    color:white;
+   
+}
+
+
+.textcontent1{
+    padding: 50px 100px;
+    text-align: center;
+    
+    
+}
+
+.textcontent1 h1{
+    font-size: 30px;
+    color: #252525;
+}
+
+.textcontent1 p{
+    font-size: 15px;
+    line-height: 2;
+    color: #555;
+
+}
+
+
+.cardscontent{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+    
+    
+}
+
+
+.card1{
+    width: 32%;
+    text-align: center;
+    float: left;
+        
+    
+}
+
+.card-title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;  
+}
+
+
+.textcontent2{
+    padding: 80px 100px;
+    text-align: left;
+    background-color: #003d52;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.textcontent2 h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+    
+}
+
+.textcontent2 p{
+    margin-top: 50px; 
+    font-size: 20px;
+    line-height: 1.5;
+    width: 70%;
+}
+
+.contact{
+    margin: auto;
+    width: 32%;
+    
+}
+
+.contact address{
+    text-align: center;
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+}
+    
+
+.maps{
+   width: 100%;
+    height: 450px;
+    margin-top: 15px;
+    
+}
+
+.maps iframe{
+    width: 100%;
+    
+}
+
+.rodape{
+    background-color: black;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+

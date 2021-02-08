@@ -1,0 +1,164 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+
+.topo{
+    background-color: #162028;
+    position: relative; /* Relative sempre no pai da outra position*/
+    height: 60px;
+  
+}
+
+
+.logotipo{
+    margin: 10px 0px 10px 150px;
+    padding: 3px 
+    
+    
+}
+
+
+.navegation{
+   position: absolute; /* Para funcionar corretamente, adicione um pai relative*/
+   top: 0;
+   right: 0;
+   height: 100%;    
+      
+       
+}
+
+
+.navegation ul{ /*Uls ja possuem uma margin e padding, por isso importante zeraras na ul*/
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+
+.navegation li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px 0px 0px;
+    padding: 23px;    
+    
+}
+
+
+.navegation a {
+    text-decoration: none;
+    color: #425564;
+    font-size: 13px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+    text-transform: uppercase;
+    
+}
+
+
+
+.navegation a:hover{
+    color: white;
+    
+}
+
+
+.textcontent01{
+    padding: 50px 100px;
+    text-align: center;
+    
+}
+
+
+.textcontent01 h1{
+    font-size: 36px;
+    color: #252525;
+}
+
+
+.textcontent01 p{
+    line-height: 2;
+    color: #555; 
+    font-size: 16px;
+}
+
+
+.cardscontent{
+    padding: 0 100px 50px 100px;
+    color: #555;
+    overflow: auto;
+    
+    
+}
+
+.cards01{
+    width: 33%;
+    text-align: center;
+    float: left;
+    
+    
+}
+
+
+.textcontent02{
+    padding: 80px 100px;
+    text-align: left;
+    background-image: url(..//imagens/bg_detalhe.png);
+    background-color: #003d52;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    
+}
+
+.textcontent02 h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: normal;
+    
+    
+}
+
+.textcontent02 p{
+    margin-top: 20px;
+    line-height: 1.5;
+    width: 70%;
+    
+}
+
+.contato{
+    margin: 50px 0;
+    text-align: center;
+    line-height: 10px;
+    color: #003d52;
+    font-weight: bold;
+    
+    
+}
+
+.maps{
+    width: 100%;
+    
+}
+
+.rodape{
+    text-align: center;
+    background-color: #0b171f;
+    letter-spacing: 5;
+    color: #6f8597;
+    margin-top: 60px;
+    padding: 10px;
+
+}
+
